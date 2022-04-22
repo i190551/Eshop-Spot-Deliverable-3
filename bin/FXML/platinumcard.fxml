@@ -18,8 +18,8 @@
             </Label>
             <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="305.0" endY="-87.0" fill="#a5acb2" layoutX="189.0" layoutY="236.0" startX="-183.0" startY="65.0" stroke="BLACK" />
             <Label layoutX="20.0" layoutY="20.0" prefHeight="21.0" prefWidth="115.0" text="EshopSpot" textFill="#a0a2ab" />
-            <Text fill="#a0a2ab" layoutX="20.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XXXXXXXXXXXXXXXXX" />
-            <Text fill="#a0a2ab" layoutX="20.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XXXXXXXXXXXXXXXXX" />
+            <Text fill="#a0a2ab" layoutX="20.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usama Khan" />
+            <Text fill="#a0a2ab" layoutX="20.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0155963852741" />
          </children>
       </AnchorPane>
    </center>

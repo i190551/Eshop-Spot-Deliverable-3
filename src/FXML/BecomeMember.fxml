@@ -95,11 +95,6 @@
                   <Image url="@../../../../Downloads/user-logn-login-member-icon-with-png-and-vector-format-935695.png" />
                </image>
             </ImageView>
-            <Text fill="#a0a2ab" layoutX="1195.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eshop Spot" wrappingWidth="423.697265625">
-               <font>
-                  <Font size="27.0" />
-               </font>
-            </Text>
          </children>
       </AnchorPane>
    </top>

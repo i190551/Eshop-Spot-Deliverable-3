@@ -52,11 +52,6 @@
                   <Image url="@../../../../Downloads/user-logn-login-member-icon-with-png-and-vector-format-935695.png" />
                </image>
             </ImageView>
-            <Label layoutX="1059.0" layoutY="71.0" text="Eshop Spot" textFill="#a0a2ab">
-               <font>
-                  <Font size="32.0" />
-               </font>
-            </Label>
          </children>
       </AnchorPane>
    </center>

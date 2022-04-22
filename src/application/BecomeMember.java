@@ -100,7 +100,7 @@ public class BecomeMember  {
 	    	
 	    	
 	    	
-	    	String insert="INSERT INTO memberinfo(memberid,membername,membercontact,memberemail)"+"VALUES(?,?,?,?)";
+	    	String insert="INSERT INTO memberinfo(memberid,membername,membercontact,memberemail,memberaddress)"+"VALUES(?,?,?,?,?)";
 			
 	    	
 	    	
@@ -118,6 +118,7 @@ public class BecomeMember  {
 				pst.setString(2,membername.getText());
 				pst.setString(3,membercontact.getText());
 				pst.setString(4,memberemail.getText());
+				pst.setString(5,memberaddress.getText());
 				
 				pst.executeUpdate();
 				
