@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CardIssuance">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="87.0" layoutY="14.0" prefHeight="161.0" prefWidth="345.0" text="Platinum" textFill="#c9bdbd">
+               <font>
+                  <Font name="Segoe Print" size="73.0" />
+               </font>
+            </Label>
+            <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="305.0" endY="-87.0" fill="#a5acb2" layoutX="189.0" layoutY="236.0" startX="-183.0" startY="65.0" stroke="BLACK" />
+            <Label layoutX="20.0" layoutY="20.0" prefHeight="21.0" prefWidth="115.0" text="EshopSpot" textFill="#a0a2ab" />
+            <Text fill="#a0a2ab" layoutX="20.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XXXXXXXXXXXXXXXXX" />
+            <Text fill="#a0a2ab" layoutX="20.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XXXXXXXXXXXXXXXXX" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BecomeMember">
+   <top>
+      <AnchorPane prefHeight="1000.0" prefWidth="1000.0" style="-fx-background-color: #2D3447;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="membername" layoutX="474.0" layoutY="180.0" prefHeight="31.0" prefWidth="260.0" promptText="Name" />
+            <TextField fx:id="memberaddress" layoutX="471.0" layoutY="538.0" prefHeight="35.0" prefWidth="261.0" promptText="Address" />
+            <TextField fx:id="memberemail" layoutX="473.0" layoutY="238.0" prefHeight="31.0" prefWidth="262.0" promptText="Email" />
+            <Button layoutX="1213.0" layoutY="649.0" mnemonicParsing="false" onAction="#membernext" prefHeight="34.0" prefWidth="151.0" style="-fx-background-color: #2196f3;" text="NEXT" textFill="#e4e5e8">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Text fill="#a0a2ab" layoutX="250.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Become A Member" wrappingWidth="417.697265625">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Text>
+            <TextField fx:id="membercontact" layoutX="473.0" layoutY="482.0" prefHeight="34.0" prefWidth="257.0" promptText="Contact Number" />
+            <Button layoutX="268.0" layoutY="649.0" mnemonicParsing="false" onAction="#memberback" prefHeight="34.0" prefWidth="151.0" style="-fx-background-color: #2196f3;" text="BACK" textFill="#e9e9eb">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="memberhome" layoutX="473.0" layoutY="390.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" text="Home" textFill="#e1dada">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="memberlifestyle" layoutX="631.0" layoutY="430.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="106.0" text="Lifestyle" textFill="#e1dada">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="memberclothing" layoutX="632.0" layoutY="351.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="103.0" text="Clothing" textFill="#e1dada">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="memberhealth" layoutX="473.0" layoutY="351.0" mnemonicParsing="false" prefHeight="11.0" prefWidth="85.0" text="Health" textFill="#e1dada">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="memberbeauty" layoutX="473.0" layoutY="430.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="116.0" text="Beauty" textFill="#e1dada">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="memberelectronics" layoutX="632.0" layoutY="390.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="123.0" text="Electronics" textFill="#e1dada">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <Label layoutX="315.0" layoutY="290.0" text="Preferences :" textFill="#e4e4e4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Line endX="1474.0" layoutX="146.0" layoutY="118.0" startX="-146.00003051757812" stroke="#2196f3" />
+            <Label layoutX="329.0" layoutY="538.0" text="Address" textFill="#e4e4e4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="320.0" layoutY="482.0" text="Contact No." textFill="#e4e4e4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="315.0" layoutY="236.0" text="Email" textFill="#e4e4e4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="315.0" layoutY="178.0" text="Name " textFill="#e4e4e4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="184.0" fitWidth="202.0" layoutX="1171.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/user-logn-login-member-icon-with-png-and-vector-format-935695.png" />
+               </image>
+            </ImageView>
+            <Text fill="#a0a2ab" layoutX="1195.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eshop Spot" wrappingWidth="423.697265625">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
